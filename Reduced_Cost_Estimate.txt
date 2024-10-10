@@ -1,0 +1,4 @@
+I have reduced db.m5.large RDS instance type to db.m3.medium instance.
+I have also reduced EC2 instance to a shared instance. 
+These changes would not considerably negatively impact the performance due to the content cahing.
+They will also not impact overall system stability due to the distributed nature of the system.
