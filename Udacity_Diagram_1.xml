@@ -211,6 +211,15 @@
         <mxCell id="9Nm8dHrND-YLcGUwxgxJ-68" value="MySQL&lt;br style=&quot;font-size: 12px;&quot;&gt;Replica&lt;br style=&quot;font-size: 12px;&quot;&gt;db.m5.large&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;fontFamily=Helvetica;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="1000" y="591" width="78" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="I60xnf0WqRZ5VlmyYZtB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;jumpStyle=arc;startArrow=classic;startFill=1;endArrow=classic;endFill=1;fillColor=#dae8fc;" edge="1" parent="1" source="I60xnf0WqRZ5VlmyYZtB-1" target="9Nm8dHrND-YLcGUwxgxJ-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I60xnf0WqRZ5VlmyYZtB-1" value="Client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="36" y="320" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I60xnf0WqRZ5VlmyYZtB-3" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="1">
+          <mxGeometry x="41" y="270" width="50" height="48.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
