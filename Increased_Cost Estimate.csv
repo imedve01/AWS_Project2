@@ -1,0 +1,23 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,18310.36,219724.32,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),VPC,VPN Connection,0,567,6804.00,USD,,"Working days per month (22), Number of subnet associations (4)"
+My Estimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,157.86,1894.32,USD,,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),VPC,Gateway Load Balancer,0,23.12,277.44,USD,,"Number of Availability Zones that Gateway Load Balancer is deployed to (2), Number of Gateway Load Balancer Endpoints (1), Average number of new connections/flows (1000 per second)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,1.15,13.80,USD,,S3 Standard storage (50 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,"DT Inbound: Not selected (0 tb_month), DT Outbound: Amazon CloudFront (1 tb_month)"
+My Estimate,US East (N. Virginia),,S3 Express One Zone,0,16,192.00,USD,,"Is your PUT, COPY or GET request sizes greater than 512 KB? (No), S3 Express One Zone storage (100 GB per month)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,465.5,5586.00,USD,,"Data transfer out to internet (5000 GB per month), Number of requests (HTTPS) (500000 per month), Data transfer out to origin (2000 GB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,3926.272,47115.26,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 32), Advance EC2 instance (t3.2xlarge), Pricing strategy ( 3yr  No Upfront), Enable monitoring (enabled), DT Inbound: Not selected (0 tb_month), DT Outbound: Not selected (0 tb_month), DT Intra-Region: (0 tb_month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,12153.36,145840.32,USD,,"Storage amount (12 TB), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Nodes (3), Instance type (db.m3.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (12 TB), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for total retention (per vCPU per month) (1.50)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,1000.1,12001.20,USD,,Number of Application Load Balancers (4)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
