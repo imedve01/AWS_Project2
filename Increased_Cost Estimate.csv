@@ -21,3 +21,9 @@ My Estimate,US East (N. Virginia),,Application Load Balancer,0,1000.1,12001.20,U
 
 Acknowledgement
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Explanation,,,,,,,,,
+I would add more EC2 instance to improve resiliency and stability as well as performance and provide better user experience,,,,,,,,,
+I woudl also choose more powerfull instances,,,,,,,,,
+I woudl increase the RDS instance sizes and comutational power to improve user experience,,,,,,,,,
+I woudl increase RDS backup storage to provide better recoverability,,,,,,,,,

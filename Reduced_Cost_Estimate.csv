@@ -21,3 +21,9 @@ My Estimate,US East (N. Virginia),,Application Load Balancer,0,1000.1,12001.2,US
 ,,,,,,,,,
 Acknowledgement,,,,,,,,,
 "* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+
+Explanation,,,,,,,,,
+I have reduced db.m5.large RDS instance type to db.m3.medium instance,,,,,,,,,
+I have also reduced EC2 instance to a shared instance,,,,,,,,,
+These changes would not considerably negatively impact the performance due to the content cahing,,,,,,,,,
+They will also not impact overall system stability due to the distributed nature of the system,,,,,,,,,
